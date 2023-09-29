@@ -1,5 +1,5 @@
 :root{
-    --primary-color: rgb(8, 166,288, 1 );
+    --primary-color: rgb(8, 166, 228, 1 );
     --color-primary-shadow: rgb(7, 172, 230, .16);
     --color-redish: rgba(251, 59, 100, 1);
     --color-redish-1: rgba(235, 71, 110, 1);
@@ -17,3 +17,112 @@
     --color-blue: rgba(7, 172, 230, 1);
 
 }
+
+html, body {
+    font-size: 16px;
+}
+
+.intro{}
+
+.header{
+   background-color: var(--color-white);
+    box-shadow: 0 .1875rem .375rem #00000029;
+    width: 100%;
+}
+.header .header__inner{
+
+}
+
+
+.header .header__logo{
+    color: var(--primary-color);
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Releway Light', sans-serif;
+    font-weight: 300;
+
+}
+
+.menu{
+    display:flex;
+    justify-content: flex-end;
+    }
+
+.menu .menu__item.menu__item--active{
+    color: var(--color-black);
+
+}
+
+.menu .menu__item{
+    color: var(--color-grey-1);
+    font-family: "Open Sans,Bold",sans-serif;
+    font-size: .6875rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold ;
+    min-width: 4.625rem;
+    text-align: center;
+    padding-top: 1.75rem;
+    padding-bottom: 1.6875rem ;
+
+
+}
+
+.hero{}
+.hero .hero__bg{
+    background-image: url("../assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-height: 100vh;
+
+}
+
+.hero .hero__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+
+
+ }
+
+.hero .hero__hdl{
+    font-family: "Releway,Regular", sans-serif;
+    color: var(--color-black);
+    font-size: 3.0625rem;
+    text-align: center;
+    justify-content: center;
+    font-weight: 300;
+    margin-top: 12.5rem;
+    margin-bottom: 8.6875rem;
+
+
+
+
+
+}
+.hero .hero__lead{}
+
+.hero .hero__btn{}
+
+.info{}
+.info .info__hdl{}
+.info .info__item{}
+.info .info__box{}
+.info .info lead{}
+.info .info numb{}
+
+
+
+
+
+
+
+
+
+
+
+
+
